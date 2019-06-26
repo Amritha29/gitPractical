@@ -1,0 +1,94 @@
+                            JAVA WEB SERVICES
+
+
+
+WEB SERVICES : sharing info between two unknown applications(2 servers) designes using unknown technologies.
+
+TWO major classes
+1) REST
+2) SOAP 
+
+uses either xml or json
+- xml is heavily used in SOAP web services
+
+json format:
+{ 
+  "first_name"  :  "Sammy", 
+  "last_name"   :  "Shark", 
+  "online"      :  true 
+}
+
+Javascript Object Notation(JSON)
+lihtweight text based open standard designed for human redeable data interchange
+used for serializing(converting data into byte stream) and transmitting
+Transmit data(name/value) btw server and web appl
+Curly braces stores the object
+json parses obj itself but xml parses value.
+
+JSONObject obj=new JSONObject();
+- for processing we need some jar files 
+
+REST and SOAP
+
+webservice will give output either in xml or json format by using ywo technologies soap or rest
+
+In ws there are producer(services) and clients
+
+properties of ws
+self-contained
+loosely-oupled
+web-enabled
+languauge-independent and interoperable
+
+AXIS(SOAP)
+JERSEY(REST)
+
+// B2B integration
+
+Communication layer:  httpor  https layer  and also more specialized transport mech such as eg ; JMS 
+SOAP - xml based protocol for accessing web services
+platform independent
+
+WSDL interface between ws appl
+
+UDDI-  describing, discovering and integrating web services
+
+REST is not protocol it s architectural style which uses soap to send data
+return valus in htnml,xml, json ,plain text
+
+soap is slower
+
+implementation of soap- jax-ws(rpc style and document style) implemented in java 1.6
+     "        "  rest - jax-rs(jersey and RESTEasy ) 
+ 
+SOA - design pattern
+provides services to other application through protocol
+
+REST can access in any of the websites where soap is accessed only in systems
+Basiclly it s stateless  in nature 
+CLienr/server + request/response
+Everything is a resource it can create CRUD operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
